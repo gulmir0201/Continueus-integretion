@@ -8,9 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Step 1 - Greet
-        run: echo "Hello step 1"
+        run: echo "Hello from step 1"
       - name: Step 2 - show current directory
         run: pwd
       - name: Step 3 - List files
-        run: ls - lf
-        
+        run: ls -la
